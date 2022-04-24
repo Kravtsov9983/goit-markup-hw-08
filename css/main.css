@@ -37,12 +37,12 @@ img {
 
 @media screen and (max-width: 767px) {
   .header {
-    width: 480px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
   }
   .mobile-container {
-    width: 480px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -124,6 +124,9 @@ img {
   .social-media-list:not(:last-child) {
     padding-right: 10px;
     border-right: 1px solid rgba(33, 33, 33, 0.2);
+  }
+  .social-media-list:last-child {
+    margin-right: 40px;
   }
   .mobile-menu__close-btn:focus .mobile-menu__close-icon,
   .mobile-menu-btn:focus .mobile-menu-btn__icon {

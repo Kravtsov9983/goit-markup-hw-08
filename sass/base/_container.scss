@@ -12,13 +12,13 @@
 
 @media screen and (max-width: 767px) {
   .header {
-    width: 480px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
   }
 
   .mobile-container {
-    width: 480px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -114,7 +114,7 @@
   }
 
   .social-media-list:last-child {
-    // margin-right: 40px;
+    margin-right: 40px;
   }
 
   .mobile-menu__close-btn:focus .mobile-menu__close-icon,
