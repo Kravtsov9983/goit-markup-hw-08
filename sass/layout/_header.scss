@@ -43,9 +43,18 @@
 
 // <-- HERO -->
 
+.mobile-container {
+}
+
 .mobile-background {
   height: 400px;
-  width: 100%;
+  width: 480px;
+}
+
+.hero-mobile__section {
+  background-image: url("../img/mobile-background.jpg");
+  background-repeat: no-repeat;
+  height: 400px;
 }
 
 // .hero-mobile__section {

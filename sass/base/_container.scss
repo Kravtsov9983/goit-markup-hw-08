@@ -11,6 +11,18 @@
 }
 
 @media screen and (max-width: 767px) {
+  .header {
+    width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .mobile-container {
+    width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .nav-header {
     display: none;
   }
