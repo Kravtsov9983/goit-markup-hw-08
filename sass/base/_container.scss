@@ -239,12 +239,28 @@
   }
 
   .work-mobil {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    @include font(14px, 700, 16px);
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: #212121;
     margin-top: 30px;
     margin-bottom: 10px;
   }
 
   .description-work:not(:first-child) {
     margin-bottom: 30px;
+  }
+
+  .description-work {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    @include font(14px, 400, 24px);
+    letter-spacing: 0.03em;
+    color: #757575;
   }
 }
 
