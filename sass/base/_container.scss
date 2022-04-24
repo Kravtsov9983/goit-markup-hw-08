@@ -100,6 +100,10 @@
     display: flex;
   }
 
+  .mobile-menu__lists {
+    padding-right: 212px;
+  }
+
   .social-media-list:not(:first-child) {
     padding-left: 10px;
   }
@@ -110,7 +114,7 @@
   }
 
   .social-media-list:last-child {
-    margin-right: 40px;
+    // margin-right: 40px;
   }
 
   .mobile-menu__close-btn:focus .mobile-menu__close-icon,
