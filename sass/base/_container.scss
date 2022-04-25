@@ -262,6 +262,34 @@
     letter-spacing: 0.03em;
     color: #757575;
   }
+
+  .mobil-social-list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 8px;
+  }
+
+  .mobil-name {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    @include font(16px, 500, 19px);
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+  }
+
+  .mobil-name__discription {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    @include font(16px, 400, 19px);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+  }
 }
 
 @media screen and (min-width: 480px) {
