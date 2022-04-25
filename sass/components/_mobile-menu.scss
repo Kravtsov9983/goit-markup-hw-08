@@ -336,8 +336,12 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    padding-top: 12px;
+    margin-top: 60px;
     align-items: center;
+  }
+
+  .footer-label-span {
+    margin-top: 60px;
   }
 
   .footer-input-maill {
@@ -353,7 +357,6 @@
     padding-left: 15px;
     padding-right: 15px;
     width: 480px;
-    height: 100vh;
     margin: 0 auto;
   }
 }
