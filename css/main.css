@@ -35,6 +35,11 @@ img {
   padding-right: 15px;
 }
 
+.mobil__container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 @media screen and (max-width: 767px) {
   .header {
     width: 480px;
@@ -285,6 +290,32 @@ img {
     text-align: center;
     letter-spacing: 0.03em;
     color: #757575;
+  }
+  .social-list-link {
+    margin-bottom: 24px;
+  }
+  .section-clients-mobil__list {
+    padding: 16px 52px;
+    width: 210px;
+    height: 92px;
+    list-style: none;
+  }
+  .section-clients-mobil__logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .section-clients-mobil__discription {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.17857;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin-bottom: 30px;
+    margin-top: 60px;
   }
 }
 
@@ -625,6 +656,21 @@ img {
 .mobil-name__discription {
   margin-top: 5px;
   margin-bottom: 8px;
+}
+
+.section-clients-mobil__lists {
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+
+.section-clients-mobil__lists-margin {
+  margin-bottom: 60px;
+}
+
+.section-clients-mobil__logo-vector {
+  fill: #afb1b8;
 }
 
 .hours-working {
