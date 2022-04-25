@@ -284,16 +284,25 @@
   }
 
   .section-clients-mobil__list {
+    list-style: none;
+  }
+
+  .section-clients-mobil__logo-vector {
     padding: 16px 52px;
     width: 210px;
     height: 92px;
-    list-style: none;
   }
 
   .section-clients-mobil__logos {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+  }
+
+  .section-clients-mobil__list:focus .section-clients-mobil__logo-vector,
+  .section-clients-mobil__list:hover .section-clients-mobil__logo-vector {
+    fill: var(--accent-color);
+    border: 1px solid #2196f3;
   }
 
   .section-clients-mobil__discription {
