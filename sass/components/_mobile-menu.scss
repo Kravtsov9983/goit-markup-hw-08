@@ -199,6 +199,11 @@
     border: 0;
   }
 
+  .hero-mobile__button:hover {
+    background: #188ce8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  }
+
   .section-work__div {
     display: flex;
     flex-direction: column;
@@ -367,6 +372,30 @@
     padding-right: 15px;
     width: 480px;
     margin: 0 auto;
+  }
+
+  .backdrop {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 92px;
+    padding-bottom: 92px;
+    margin: 0 auto;
+  }
+
+  .modal {
+    width: 450px;
+  }
+
+  .contact-form-checkbox-label {
+    @include font(12px, 400, 14px);
+  }
+
+  .contact-form-checkbox-link {
+    @include font(12px, 400, 14px);
+  }
+
+  .contact-form-checkbox-label::before {
+    margin-right: 7px;
   }
 }
 
