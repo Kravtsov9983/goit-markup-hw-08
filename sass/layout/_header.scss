@@ -66,12 +66,25 @@
   justify-content: center;
   padding-left: 138px;
   padding-right: 138px;
-  margin-top: 60px;
+  padding-top: 60px;
   margin-bottom: 30px;
 }
 
 .mobile-team__list {
   list-style: none;
+  // margin-bottom: 30px;
+}
+
+.mobile-team__list:not(:last-child) {
+  padding-bottom: 30px;
+}
+
+.mobile-team__list:last-child {
+  padding-bottom: 60px;
+}
+
+.mobile-team {
+  background: #f5f4fa;
 }
 
 .foto-team-mobile {
@@ -82,6 +95,10 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .mobile-seaction-work {
@@ -93,6 +110,7 @@
 .mobil-name {
   margin-top: 30px;
   margin-bottom: 5px;
+  width: 450px;
 }
 
 .mobil-name__discription {
