@@ -21,20 +21,22 @@
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
-    <header class="header">
-      <div class="header-container container">
-        <a class="header__logo-webstudio" href="./index.html"
-          ><span class="colortext-logo">Web</span>Studio</a
+    <header class="header container">
+      <div class="header__container">
+        <a class="header__logo-webstudio" href="./index.html">
+          <span class="colortext-logo">Web</span>Studio</a
         >
         <nav class="nav-header">
           <ul class="nav-header__lists">
             <li class="nav-header__list">
-              <a class="nav-header__list-link" href="./index.html">Студия</a>
-            </li>
-            <li class="nav-header__list">
               <a
                 class="nav-header__list-link nav-header-line"
-                href="./portfolio.html"
+                href="./index.html"
+                >Студия</a
+              >
+            </li>
+            <li class="nav-header__list">
+              <a class="nav-header__list-link" href="./portfolio.html"
                 >Портфолио</a
               >
             </li>
@@ -43,13 +45,19 @@
             </li>
           </ul>
         </nav>
+        <button type="button" class="mobile-menu-btn" data-menu-open>
+          <svg class="mobile-menu-btn__icon" width="40" height="40">
+            <use href="./img/sprite.svg#burger-menu-icon"></use>
+          </svg>
+        </button>
         <div class="header__contacts">
           <ul class="header__nav-contacts">
             <li class="nav-header__list">
               <a
                 class="nav-header-link contacts"
                 href="mailto:info@devstudio.com"
-                ><svg class="icon-header-maill">
+              >
+                <svg class="icon-header-maill">
                   <use
                     class="nav-header-link-vector"
                     href="./img/sprite.svg#envelope"
@@ -59,8 +67,8 @@
               >
             </li>
             <li class="nav-header__list">
-              <a class="nav-header-link contacts" href="tel:+380961111111"
-                ><svg class="icon-header-tell" width="16px" height="12px">
+              <a class="nav-header-link contacts" href="tel:+380961111111">
+                <svg class="icon-header-tell" width="16px" height="12px">
                   <use
                     class="nav-header-link-vector"
                     href="./img/sprite.svg#smartphone"
@@ -70,6 +78,67 @@
               >
             </li>
           </ul>
+        </div>
+      </div>
+
+      <div class="mobile-menu" data-menu>
+        <div class="header__container mobile-menu__container">
+          <button type="button" class="mobile-menu__close-btn" data-menu-close>
+            <svg class="mobile-menu__close-icon" width="40" height="40">
+              <use href="./img/sprite.svg#burger-icon-close"></use>
+            </svg>
+          </button>
+          <div class="mobile-menu__div">
+            <ul class="mobile-menu__lists">
+              <li class="mobile-menu__lists--list">
+                <a
+                  class="mobile-menu__lists--link mobile-menu__link-color"
+                  href="./index.html"
+                  >Студия</a
+                >
+              </li>
+              <li class="mobile-menu__lists--list">
+                <a class="mobile-menu__lists--link" href="./portfolio.html"
+                  >Портфолио</a
+                >
+              </li>
+              <li class="mobile-menu__lists--list">
+                <a class="mobile-menu__lists--link" href="">Контакты</a>
+              </li>
+            </ul>
+            <ul class="mobile-menu__contacts">
+              <li class="mobile-menu__contacts-list mobile-menu-tell-list">
+                <a
+                  class="mobile-menu__contacts-link mobile-menu-tell"
+                  href="tel:+380961111111"
+                  >+38 096 111 11 11</a
+                >
+              </li>
+              <li class="mobile-menu__contacts-list mobile-menu-maill-list">
+                <a
+                  class="mobile-menu__contacts-link mobile-menu-maill"
+                  href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="mobile-menu__social-media">
+            <ul class="social-media-lists">
+              <li class="social-media-list">
+                <a class="social-media-link" href="">Instagram </a>
+              </li>
+              <li class="social-media-list">
+                <a class="social-media-link" href="">Twitter </a>
+              </li>
+              <li class="social-media-list">
+                <a class="social-media-link" href="">Facebook</a>
+              </li>
+              <li class="social-media-list">
+                <a class="social-media-link" href="">LinkedIn </a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </header>
@@ -90,7 +159,7 @@
               <a class="links-foto-portfolio" href="#">
                 <div class="box-portolio">
                   <img
-                    class="project-laptop"
+                    class="project-laptop portfolio-vobil-foto"
                     src="./img/foto-portfolio-1.jpg"
                     alt="laptop"
                   />
@@ -110,7 +179,7 @@
               <a class="links-foto-portfolio" href="#">
                 <div class="box-portolio">
                   <img
-                    class="project-basketball"
+                    class="project-basketball portfolio-vobil-foto"
                     src="./img/foto-portfolio-2.jpg"
                     alt="basketball"
                   />
@@ -130,7 +199,7 @@
               <a class="links-foto-portfolio" href="#">
                 <div class="box-portolio">
                   <img
-                    class="project-seafood"
+                    class="project-seafood portfolio-vobil-foto"
                     src="./img/foto-portfolio-3.jpg"
                     alt="seafood"
                   />
@@ -150,7 +219,7 @@
               <a class="links-foto-portfolio" href="#">
                 <div class="box-portolio">
                   <img
-                    class="project-headphones"
+                    class="project-headphones portfolio-vobil-foto"
                     src="./img/foto-portfolio-4.jpg"
                     alt="headphones"
                   />
@@ -170,7 +239,7 @@
               <a class="links-foto-portfolio" href="#">
                 <div class="box-portolio">
                   <img
-                    class="project-boxes"
+                    class="project-boxes portfolio-vobil-foto"
                     src="./img/foto-portfolio-5.jpg"
                     alt="boxes"
                   />
@@ -190,7 +259,7 @@
               <a class="links-foto-portfolio" href="#">
                 <div class="box-portolio">
                   <img
-                    class="project-tv"
+                    class="project-tv portfolio-vobil-foto"
                     src="./img/foto-portfolio-6.jpg"
                     alt="tv"
                   />
@@ -210,7 +279,7 @@
               <a class="links-foto-portfolio" href="#">
                 <div class="box-portolio">
                   <img
-                    class="project-book"
+                    class="project-book portfolio-vobil-foto"
                     src="./img/foto-portfolio-7.jpg"
                     alt="book"
                   />
@@ -230,7 +299,7 @@
               <a class="links-foto-portfolio" href="#">
                 <div class="box-portolio">
                   <img
-                    class="project-lab"
+                    class="project-lab portfolio-vobil-foto"
                     src="./img/foto-portfolio-8.jpg"
                     alt="tag"
                   />
@@ -250,7 +319,7 @@
               <a class="links-foto-portfolio" href="#">
                 <div class="box-portolio">
                   <img
-                    class="project-growing-business"
+                    class="project-growing-business portfolio-vobil-foto"
                     src="./img/foto-portfolio-9.jpg"
                     alt="business"
                   />
@@ -292,7 +361,7 @@
             </ul>
           </div>
         </div>
-        <div class="footer__links">
+        <div class="footer__links footer__links-mobil">
           <h3 class="footer__links--name-links">присоединяйтесь</h3>
           <ul class="social-list list">
             <li class="social-list-item">
@@ -325,7 +394,8 @@
             </li>
           </ul>
         </div>
-        <form class="footer__div-container--footer-form-wraper">
+        <form
+          class="footer__div-container--footer-form-wraper footer__div-container--footer-form-wraper-mobil >
           <label class="footer-label"
             ><span class="footer-label-span">Подпишитесь на рассылку</span>
             <input
@@ -345,5 +415,7 @@
         </form>
       </div>
     </footer>
+
+    <script src="./js/menu.js"></script>
   </body>
 </html>
